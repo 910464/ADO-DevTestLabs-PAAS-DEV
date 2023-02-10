@@ -70,3 +70,10 @@ stages:
     steps:  
     - script: echo Test Two  
 - stage: Production
+  jobs:  
+  - job: TestOne  
+    steps:  
+    - script: echo This is a production  
+  - job: TestTwo 
+    steps:  
+    - script: echo This is production Test 2
