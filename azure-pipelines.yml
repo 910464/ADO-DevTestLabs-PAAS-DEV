@@ -54,7 +54,7 @@ stages:
         SourceFolder: 'Application/aspnet-core-dotnet-core.FunctionalTests'
         Contents: '**/*.runsettings'
         TargetFolder: '$(Build.ArtifactStagingDirectory)/FunctionalTests'
-  - job: Publish Artifacts
+  - job: PublishArtifacts
     steps:
     - task: PublishBuildArtifacts@1
       inputs:
