@@ -73,7 +73,7 @@ namespace SampleWebApplication.FunctionalTests
                 {
                     driver.Navigate().GoToUrl(webAppUrl);
                    
-                    Assert.AreEqual("Azure DevOps Project has been successfully setup in Staging V6.0.0", driver.FindElement(By.CssSelector("div[class='description line-1']")).Text, "Expected description line  to be 'Azure DevOps Project has been successfully setup in Staging V6.0.0'");
+                    Assert.AreEqual("Azure DevOps Project has been successfully setup in Staging V6.0.0", driver.FindElementByCssSelector("div[class='description line-1']").Text, "Expected description line  to be 'Azure DevOps Project has been successfully setup in Staging V6.0.0'");
                     
                     break;
                 }
@@ -102,7 +102,7 @@ namespace SampleWebApplication.FunctionalTests
                 try
                 {
                     driver.Navigate().GoToUrl(webAppUrl);
-                    Assert.AreEqual("Your ASP.NET Core app is up and running on Azure Staging WebApp V6.0.0", driver.FindElement(By.CssSelector("div[class='description line-2']")).Text, "Expected description line  to be 'Your ASP.NET Core app is up and running on Azure Staging WebApp V6.0.0'");
+                    Assert.AreEqual("Your ASP.NET Core app is up and running on Azure Staging WebApp V6.0.0", driver.FindElementByCssSelector("div[class='description line-2']").Text, "Expected description line  to be 'Your ASP.NET Core app is up and running on Azure Staging WebApp V6.0.0'");
                     break;
                 }
                 catch(Exception e)
