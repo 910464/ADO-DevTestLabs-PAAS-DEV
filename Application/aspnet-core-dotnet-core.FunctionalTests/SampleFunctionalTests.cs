@@ -73,7 +73,7 @@ namespace SampleWebApplication.FunctionalTests
                 {
                     driver.Navigate().GoToUrl(webAppUrl);
                    
-                    Assert.AreEqual("Azure DevOps Project has been successfully setup in Staging V6.0.0", driver.FindElementByCssSelector("div[class='description line-1']").Text, "Expected description line  to be 'Azure DevOps Project has been successfully setup in Staging V6.0.0'");
+                    Assert.AreEqual("Azure DevOps Project has been successfully setup in Staging V7.0.0", driver.FindElementByCssSelector("div[class='description line-1']").Text, "Expected description line  to be 'Azure DevOps Project has been successfully setup in Staging V6.0.0'");
                     
                     break;
                 }
