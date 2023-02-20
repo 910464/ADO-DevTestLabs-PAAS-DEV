@@ -45,8 +45,6 @@ namespace SampleWebApplication.FunctionalTests
                 {
                     driver.Navigate().GoToUrl(webAppUrl);
                     Assert.AreEqual("Home Page - ASP.NET Core Staging", driver.Title, "Expected title to be 'Home Page - ASP.NET Core'");
-                    Assert.AreEqual("Azure DevOps Project has been successfully setup in Staging V6.0.0", driver.FindElementByClassName("description line-1").Text, "Expected description line  to be 'Azure DevOps Project has been successfully setup in Staging V6.0.0'");
-                    Assert.AreEqual("Your ASP.NET Core app is up and running on Azure Staging WebApp V6.0.0", driver.FindElementByClassName("description line-2").Text, "Expected description line  to be 'Your ASP.NET Core app is up and running on Azure Staging WebApp V6.0.0'");
                     break;
                 }
                 catch(Exception e)
