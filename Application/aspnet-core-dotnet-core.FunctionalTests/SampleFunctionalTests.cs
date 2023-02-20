@@ -60,7 +60,7 @@ namespace SampleWebApplication.FunctionalTests
             }
         }
         [TestMethod]
-        public void SampleFunctionalTest1()
+        public void SampleFunctionalTest2()
         {
             var webAppUrl = testContext.Properties["webAppUrl"].ToString();
 
@@ -90,7 +90,7 @@ namespace SampleWebApplication.FunctionalTests
             }
         }
         [TestMethod]
-        public void SampleFunctionalTest1()
+        public void SampleFunctionalTest3()
         {
             var webAppUrl = testContext.Properties["webAppUrl"].ToString();
 
