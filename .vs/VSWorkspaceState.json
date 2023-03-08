@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Application",
+    "\\Application\\aspnet-core-dotnet-core",
+    "\\Application\\aspnet-core-dotnet-core.FunctionalTests",
+    "\\Application\\aspnet-core-dotnet-core.UnitTests",
+    "\\Application\\aspnet-core-dotnet-core\\Pages"
   ],
-  "SelectedNode": "\\aspnet-core-dotnet-core.sln",
+  "SelectedNode": "\\Application\\aspnet-core-dotnet-core.FunctionalTests\\SampleFunctionalTests.cs",
   "PreviewInSolutionExplorer": false
 }
